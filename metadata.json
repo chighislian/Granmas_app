@@ -1,0 +1,6 @@
+{
+  "name": "Gran’s Health",
+  "description": "A comforting, easy-to-use local health tracker for an elderly woman managing diabetes and high blood pressure.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
