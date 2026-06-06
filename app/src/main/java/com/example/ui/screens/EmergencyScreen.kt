@@ -299,7 +299,7 @@ fun EmergencyScreen(
                                 colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF1B5E20)),
                                 shape = RoundedCornerShape(20.dp)
                             ) {
-                                Text("Save Emergency Record ✅", fontWeight = FontWeight.Bold, fontSize = 18.sp)
+                                Text("Save Emergency Record ", fontWeight = FontWeight.Bold, fontSize = 18.sp)
                             }
                         }
                     }
@@ -314,7 +314,7 @@ fun EmergencyScreen(
                             .padding(vertical = 12.dp)
                     ) {
                         Text(
-                            text = emergencyInfo.fullName.ifEmpty { "Mary" },
+                            text = emergencyInfo.fullName.ifEmpty { "Roseline" },
                             style = MaterialTheme.typography.displayMedium,
                             fontWeight = FontWeight.Black,
                             color = Color(0xFFDC2626),
